@@ -3,7 +3,7 @@
 name: second workflow
 
 env:
-  msg: "hello from env var"
+  msg: 123456
 
 # Controls when the workflow will run
 on:
