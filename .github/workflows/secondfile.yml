@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
       
 env:
-  var: "i am from variable" 
+  var: i am from variable 
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
