@@ -2,7 +2,7 @@
 
 name: second workflow
 
-env :
+env:
   msg = "hey iam from variable"
 
 # Controls when the workflow will run
