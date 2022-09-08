@@ -37,7 +37,7 @@ jobs:
         run: echo "$msg $var"
 
   run_python_script:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
