@@ -4,13 +4,7 @@ name: second workflow
 
 env:
   msg: 123456
-  
 
-# env:
-#   name: "hello shaik"  
-
-# env:
-#   var: "i am from variable" 
 
 
 # Controls when the workflow will run
@@ -30,6 +24,9 @@ jobs:
   job1:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+      
+env:
+  var: "i am from variable" 
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -38,7 +35,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo $msg
+        run: echo $msg $var
 
       
 
