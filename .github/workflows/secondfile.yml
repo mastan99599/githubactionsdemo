@@ -4,7 +4,7 @@ name: second workflow
 
 env:
   msg: 123456
-  name:"helloshaik"
+  name:helloshaik
 
 # env:
 #   name: "hello shaik"  
