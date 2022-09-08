@@ -4,6 +4,7 @@ name: second workflow
 
 env:
   msg: 123456
+  name:"helloshaik"
 
 # env:
 #   name: "hello shaik"  
@@ -37,7 +38,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "$msg $name $var"
+        run: echo $msg $name
 
       
 
