@@ -5,11 +5,11 @@ name: second workflow
 env:
   msg: 123456
 
-env:
-  name: "hello shaik"  
+# env:
+#   name: "hello shaik"  
 
-env:
-  var: "i am from variable" 
+# env:
+#   var: "i am from variable" 
 
 
 # Controls when the workflow will run
