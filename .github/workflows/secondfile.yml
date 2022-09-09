@@ -57,8 +57,8 @@ jobs:
           python-version: '3.10' 
       - name: Run python script
         run: | 
-            cd myfolder
-            python cd second.py
+          cd myfolder
+          python cd second.py
 
 
 
