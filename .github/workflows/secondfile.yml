@@ -58,6 +58,7 @@ jobs:
       - name: Run python script
         run: |  
           cd myfolder 
+          cd myfolder2
           python second.py
 
 
