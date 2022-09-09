@@ -1,1 +1,1 @@
-print("hello welcome to shaik i am form folder")
+print("hello welcome to shaik i am from folder")
