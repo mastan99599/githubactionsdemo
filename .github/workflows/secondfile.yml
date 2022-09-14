@@ -35,7 +35,7 @@ jobs:
         run: echo "$msg $var"
 
     run_python_script: 
-    runs-on: ubuntu-latest
+      runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
@@ -47,7 +47,7 @@ jobs:
         
     run_folder_script:
     #runs-on: self-hosted
-    runs-on: ubuntu-latest
+      runs-on: ubuntu-latest
 
     
     steps:
@@ -63,11 +63,3 @@ jobs:
         
       # - name: Run on secrets
       #   run: echo ${{ secrets.shaik }}
-
-
-
-
-
-
-
-        
