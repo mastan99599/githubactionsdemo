@@ -36,8 +36,7 @@ jobs:
       - name: Run a one-line script
         run: echo "$msg $var"
 
-    run_python_script:
-    
+    run_python_script: 
     runs-on: ubuntu-latest
 
     steps:
@@ -53,7 +52,6 @@ jobs:
     runs-on: ubuntu-latest
 
     
-
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
