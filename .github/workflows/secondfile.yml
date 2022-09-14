@@ -48,7 +48,9 @@ jobs:
         run: python shaik.py
         
   run_folder_script:
-    runs-on: self-hosted
+    #runs-on: self-hosted
+    runs-on: ubuntu-latest
+
     
 
     steps:
@@ -61,6 +63,9 @@ jobs:
           cd myfolder 
           cd myfolder2
           python second.py
+        
+      - name: Run on secrets
+        run: echo ${{ secrets.shaik }}
 
 
 
