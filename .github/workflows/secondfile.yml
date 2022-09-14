@@ -37,7 +37,7 @@ jobs:
         run: echo "$msg $var"
 
     run_python_script:
-      needs:job1
+    
     runs-on: ubuntu-latest
 
     steps:
