@@ -61,8 +61,8 @@ jobs:
           cd myfolder2
           python second.py
         
-      - name: Run on secrets
-        run: echo ${{ secrets.shaik }}
+      # - name: Run on secrets
+      #   run: echo ${{ secrets.shaik }}
 
 
 
