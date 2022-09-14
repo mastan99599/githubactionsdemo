@@ -34,7 +34,7 @@ jobs:
       - name: Run a one-line script
         run: echo "$msg $var"
 
-    run_python_script: 
+  run_python_script: 
       runs-on: ubuntu-latest
 
     steps:
@@ -45,7 +45,7 @@ jobs:
       - name: Run python script    
         run: python shaik.py
         
-    run_folder_script:
+  run_folder_script:
     #runs-on: self-hosted
       runs-on: ubuntu-latest
 
